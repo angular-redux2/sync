@@ -2,7 +2,7 @@
     "name": "@angular-redux2/sync",
     "author": "Garfild (https://github.com/Garefild)",
     "license": "Mozilla Public License Version 2.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/angular-redux2/sync",
     "description": "Angular-redux2/sync is a library that provides synchronization between multiple tabs",
     "repository": {
