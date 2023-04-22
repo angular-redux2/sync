@@ -1,0 +1,12 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "name": "@Angular-redux2/sync",
+    "out": "docs",
+    "gaID": "G-6S54BTFYTM",
+    "entryPoints": [
+        "projects/angular-redux2/sync/src/public-api.ts"
+    ],
+    "compilerOptions": {
+        "skipLibCheck": true
+    }
+}
