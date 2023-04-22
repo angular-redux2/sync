@@ -4,7 +4,7 @@ It uses the Broadcast Channel API to communicate with other tabs and dispatches 
 
 [![Discord](https://img.shields.io/discord/1050521693795405874?logo=Angular-redux2)](https://discord.com/invite/7BnsAqst6W)
 [![npm version](https://img.shields.io/npm/v/@angular-redux2/sync.svg)](https://www.npmjs.com/package/@angular-redux2/sync)
-[![downloads per month](https://img.shields.io/npm/dm/@angular-redux2/sync.svg)](https://www.npmjs.com/package/@angular-redux2/store)
+[![downloads per month](https://img.shields.io/npm/dm/@angular-redux2/sync.svg)](https://www.npmjs.com/package/@angular-redux2/sync)
 
 ## Installation
 You can install angular-redux2/sync using npm:
@@ -14,6 +14,7 @@ npm install @angular-redux2/sync
 
 ## Usage
 To use angular-redux2/sync, you need to create an instance of the SyncService class and add it to your Reducer middleware chain.
+- Take me to the [API docs](https://angular-redux2.github.io/sync).
 ```typescript
 ngRedux.configureStore(<any>rootReducer, INITIAL_STATE, [
     reduxSyncMiddleware({ initState: true })
