@@ -2,8 +2,15 @@
  * Import third-party libraries
  */
 
+import { NgRedux } from '@angular-redux2/store';
+
+/**
+ * Import third-party types
+ */
+
 import type { AnyAction } from 'redux';
-import { Middleware, NgRedux } from '@angular-redux2/store';
+import type { Middleware } from '@angular-redux2/store';
+import type { NextMiddleware } from '@angular-redux2/store/interfaces/reducer.interface';
 
 /**
  * angular-redux2/sync
@@ -12,7 +19,6 @@ import { Middleware, NgRedux } from '@angular-redux2/store';
 import { guid } from '../components/uid.component';
 import type { ConfigSyncInterface } from '../interfaces/sync.interface';
 import { GET_INIT_STATE, RECEIVE_INIT_STATE } from '../interfaces/sync.interface';
-import { NextMiddleware } from "@angular-redux2/store/interfaces/reducer.interface";
 
 /**
  * The SyncComponent class allows synchronization of Redux state between different

@@ -9,8 +9,13 @@ import { NgRedux } from '@angular-redux2/store';
  */
 
 import { reduxSyncMiddleware, SyncService } from './sync.service';
-import type { ConfigSyncInterface } from '../interfaces/sync.interface';
 import { GET_INIT_STATE, RECEIVE_INIT_STATE } from '../interfaces/sync.interface';
+
+/**
+ * angular-redux2/sync types
+ */
+
+import type { ConfigSyncInterface } from '../interfaces/sync.interface';
 
 jest.mock('@angular-redux2/store');
 
